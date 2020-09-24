@@ -13,5 +13,5 @@ endif()
 find_package(sdl2_image)
 
 
-add_executable(Sdl2Simple WIN32 ${CMAKE_CURRENT_SOURCE_DIR}/Sdl2Simple.cpp)
-target_link_libraries(Sdl2Simple PUBLIC "${SDL2_TARGET}" sdl2_image::sdl2_image)
+add_executable(Sdl2ImageSimple WIN32 ${CMAKE_CURRENT_SOURCE_DIR}/Sdl2ImageSimple.cpp)
+target_link_libraries(Sdl2ImageSimple PUBLIC "${SDL2_TARGET}" sdl2_image::sdl2_image)
