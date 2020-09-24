@@ -54,7 +54,7 @@ class BasicSdl(conans.ConanFile):
     settings = "os", "compiler", "build_type", "arch"
 
     requires = (
-        "basic-sdl2/b_2.0.9@TimSimpson/testing",
+        "sdl2/b_2.0.9@TimSimpson/testing",
     )
 
     options = {
